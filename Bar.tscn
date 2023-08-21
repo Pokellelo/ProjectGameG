@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://MenuAcction.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+anchor_right = 0.056
+margin_left = -8.0
+margin_top = -8.0
+margin_right = 65.76
+margin_bottom = 62.0
+rect_pivot_offset = Vector2( 76, 40 )
+action_mode = 0
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="."]
+anchor_right = 0.056
+margin_left = 64.0
+margin_top = -8.0
+margin_right = 137.76
+margin_bottom = 62.0
+rect_pivot_offset = Vector2( 76, 40 )
+action_mode = 0
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="."]
+anchor_right = 0.056
+margin_left = 136.0
+margin_top = -8.0
+margin_right = 209.76
+margin_bottom = 62.0
+rect_pivot_offset = Vector2( 76, 40 )
+action_mode = 0
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button4" type="Button" parent="."]
+anchor_right = 0.056
+margin_left = 208.0
+margin_top = -8.0
+margin_right = 281.76
+margin_bottom = 62.0
+rect_pivot_offset = Vector2( 76, 40 )
+action_mode = 0
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button5" type="Button" parent="."]
+anchor_right = 0.056
+margin_left = 280.0
+margin_top = -8.0
+margin_right = 353.76
+margin_bottom = 62.0
+rect_pivot_offset = Vector2( 76, 40 )
+action_mode = 0
+icon = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

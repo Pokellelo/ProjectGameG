@@ -1,0 +1,11 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://InfoGeneba.gd" type="Script" id=1]
+[ext_resource path="res://stats.gd" type="Script" id=2]
+[ext_resource path="res://GenebazUNO.tres" type="Resource" id=3]
+[ext_resource path="res://GenebazDOS.tres" type="Resource" id=4]
+
+[node name="Info" type="Node2D"]
+script = ExtResource( 1 )
+starting_stats = ExtResource( 2 )
+skills = [ ExtResource( 3 ), ExtResource( 4 ) ]

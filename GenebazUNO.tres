@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://stats.gd" type="Script" id=1]
+[ext_resource path="res://IconAttack2.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+type = "GenebazUNO"
+attack = 10.0
+defense = 5.0
+charm = 4.0
+icon = ExtResource( 2 )
+cooldown = 0.2

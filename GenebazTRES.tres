@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://stats.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+type = "GenebazTRES"
+attack = 6.0
+defense = 10.0
+charm = 2.0
+cooldown = 1.0
