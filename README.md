@@ -1,3 +1,3 @@
-Just a repo for testing Godot engine, and test games ideas (Genebaz)
+A repo for testing and implementing my game ideas (Genebaz)
 
-A rpg like game with pets and procedual generation world :D
+A rpg like pet games with  procedual generation world :D
